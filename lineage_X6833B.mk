@@ -33,3 +33,7 @@ LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
 # Enable activity open override fix for low-end devices or devices affected by activity open/exit freezing issue
 PERF_ANIM_OVERRIDE := true
+
+# GMS Flagg if needed (remove #)
+# WITH_GMS := true/false
+
