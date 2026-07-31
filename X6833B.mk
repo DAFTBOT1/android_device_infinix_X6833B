@@ -13,7 +13,7 @@ $(call inherit-product, device/infinix/X6833B/device.mk)
 
 # Inherit some common luminedroid stuff.
 $(call inherit-product, vendor/lumine/config/common_full_phone.mk)
-
+LUMINE_MAINTAINER := MR.BELT
 
 BOARD_VENDOR := Infinix
 PRODUCT_NAME := X6833B
