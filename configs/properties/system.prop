@@ -94,6 +94,9 @@ wifi.tethering.interface=ap0
 # Zygote
 zygote.critical_window.minute=10
 
+# Override Animation
+persist.sys.activity_anim_perf_override=true
+
 #Infinity Flags
 ro.product.marketname=Infinix Note 30
 ro.infinity.soc=Mediatek Helio G99
