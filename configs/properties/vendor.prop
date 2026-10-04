@@ -241,7 +241,6 @@ ro.vendor.mtk_nn_support=1
 # Power
 ro.vendor.powerhal.gsi_watermark=500
 ro.vendor.powerhal_fling_mode_support=1
-vendor.perf.framepacing.enable=1
 
 # Radio
 persist.radio.multisim.config=dsds
