@@ -23,6 +23,7 @@ namespace_imports = [
     'device/infinix/X6833B',
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
+    'hardware/mediatek/libion_mtk',
     'hardware/millennium',
     'hardware/millennium/libtranlog',
     'hardware/mediatek/libaedv',
