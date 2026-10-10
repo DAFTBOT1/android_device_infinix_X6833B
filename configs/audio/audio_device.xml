@@ -68,7 +68,7 @@
             <kctl name="DAC In Mux" value="Normal Path" />
             <kctl name="LOL Mux" value="Playback" />
             <kctl name="RCV Mux" value="Dual Voice Playback" />
-            <kctl name="Handset Volume" value="5" />
+            <kctl name="Handset Volume" value="8" />
         </path>
         <!--BSP: modify inversed spk1 XLQLHAEE-6 by jiaqiong.zhang 20220613 end-->
         <path name="dual_speaker_output" value="turnoff">
