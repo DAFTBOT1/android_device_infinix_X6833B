@@ -196,7 +196,7 @@ $(call soong_config_set_bool,fastbootd,bypass_lock_state,true)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1.vendor:64
+    android.hardware.biometrics.fingerprint@2.1-service.millennium
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
