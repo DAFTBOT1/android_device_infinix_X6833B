@@ -177,10 +177,7 @@ vendor/lib64/libbt-vendor.so
 
 # Camera
 vendor/bin/hw/mt6789/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
-vendor/bin/hw/vendor.transsion.hardware.trancam.trancamserver@1.0-service
 vendor/etc/init/camerahalserver.rc
-vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml
 vendor/etc/vintf/manifest/manifest_cameraprovider.xml
 vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -862,7 +859,6 @@ vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcam3_tranelapsedtime.so
 vendor/lib64/libcam3_tranpriorityctrl.so
-vendor/lib64/libcam3_transerverengine.so
 vendor/lib64/libcam_STcallbackHelper_utils.so
 vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamalgo.WarpMapResizer.so
@@ -905,7 +901,6 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
-vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 
 # Cameradata
 vendor/data/camera/morpho/morpho_calibration_video.bin
