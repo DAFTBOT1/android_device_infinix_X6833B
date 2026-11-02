@@ -177,10 +177,7 @@ vendor/lib64/libbt-vendor.so
 
 # Camera
 vendor/bin/hw/mt6789/camerahalserver;SYMLINK=vendor/bin/hw/camerahalserver
-vendor/bin/hw/vendor.transsion.hardware.trancam.trancamserver@1.0-service
 vendor/etc/init/camerahalserver.rc
-vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml
 vendor/etc/vintf/manifest/manifest_cameraprovider.xml
 vendor/lib64/hw/mt6789/android.hardware.camera.provider@2.6-impl-mediatek.so;SYMLINK=vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.atms@1.0-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -862,7 +859,6 @@ vendor/lib64/libc++_shared.so
 vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcam3_tranelapsedtime.so
 vendor/lib64/libcam3_tranpriorityctrl.so
-vendor/lib64/libcam3_transerverengine.so
 vendor/lib64/libcam_STcallbackHelper_utils.so
 vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamalgo.WarpMapResizer.so
@@ -905,7 +901,6 @@ vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
-vendor/lib64/vendor.transsion.hardware.trancam.trancamserver@1.0.so
 
 # Cameradata
 vendor/data/camera/morpho/morpho_calibration_video.bin
@@ -1056,10 +1051,7 @@ system/etc/sysconfig/config-com.transsion.dtsaudio.xml|0bdf4ecd3b97ef66bd211f499
 system/framework/dtsaudio.jar|544dc0d2dc1c3944397e0421e41da73105202e41
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|6d6f8d841369b3661de4e9e5865410ee6afceafe
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/init/vendor.fpsensor.rc
-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
 vendor/lib64/hw/fpsensor_fingerprint.default.so
 vendor/lib64/libfp_ext_svc2.so
 vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
@@ -1224,7 +1216,6 @@ vendor/lib64/mt6789/libmnl.so:vendor/lib64/libmnl_mtk.so
 vendor/lib64/lbs_hidl_service-impl.so
 vendor/lib64/librpc.so
 vendor/lib64/libviagpsrpc.so
-vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
 
 # Keymaster
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
@@ -1506,8 +1497,6 @@ vendor/lib64/libtrm.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libviamipc-ril.so
 vendor/lib64/libwpfa.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
 # Radio (gsm0710muxd) - from rodin-user-15-AP3A.240905.015.A2-OS2.0.5.0.VOJCNXM-release-keys
 vendor/bin/gsm0710muxd|70e638c98c51a70d6b3f797d37ad8528275eefbf
@@ -1617,7 +1606,6 @@ vendor/etc/init/netdagent.rc
 vendor/etc/init/tetheroffloadservice.rc
 vendor/lib64/libforkexecwrap.so
 vendor/lib64/libifcutils_mtk.so
-vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
 # Thermal
 vendor/bin/thermal_core
