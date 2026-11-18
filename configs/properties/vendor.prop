@@ -291,14 +291,17 @@ ro.soc.manufacturer=Mediatek
 ro.soc.model=MT6789V/CD
 
 # SurfaceFlinger
-debug.sf.auto_latch_unsignaled=0
+debug.sf.defer_refresh_rate_when_off=1
+debug.hwui.skia_atrace_enabled=false
+debug.sf.auto_latch_unsignaled=1
 debug.sf.disable_client_composition_cache=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-12666667
 debug.sf.high_fps_early_phase_offset_ns=-12666667
 debug.sf.high_fps_late_app_phase_offset_ns=-8000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-12666667
 debug.sf.enable_egl_image_tracker=0
-debug.sf.enable_gl_backpressure=1
+debug.sf.enable_gl_backpressure=0
+debug.renderengine.blur_algorithm=kawase2_fix_aliasing
 debug.sf.enable_hwc_vds=0
 ro.surface_flinger.vsync_event_phase_offset_ns=8400000
 ro.surface_flinger.vsync_sf_event_phase_offset_ns=-10933333
